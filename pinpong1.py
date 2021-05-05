@@ -41,7 +41,9 @@ while game:
    if finish != True:
        window.fill(back)
 
-
+       racket1.reset()
+       racket2.reset()
+       ball.reset()
  
    display.update()
    clock.tick(FPS)
